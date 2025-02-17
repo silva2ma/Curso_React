@@ -4,8 +4,8 @@ import Menu from "./Menu";
 function Projetos(){
   return(
     <div>
-      <h1>Projetos</h1>
       <Menu />
+      <h1>Desenvolvo soluções tecnológicas que transformam ideias em inovação</h1>
     </div>
   )
 }
