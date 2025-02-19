@@ -9,7 +9,7 @@ import Contato from "./pagess/Contato.jsx";
 
 function App(){
   return(
-    <div>
+    <div >
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />

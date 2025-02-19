@@ -5,6 +5,7 @@ export default function Contato() {
   return (
     <div>
          <Menu />
+         <h1>Contato</h1><hr></hr>
       <h1>Tem uma pergunta ou proposta?
       Me envie uma mensagem! </h1>
       {placeholders.map((text, index) => (

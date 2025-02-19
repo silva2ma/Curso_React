@@ -1,10 +1,13 @@
 import Menu from "./Menu";
+import minhaImagem from "./assets/FotoSobre.png"; // Importando a imagem
+
 
 
 function Sobre(){
   return(
     <div>
          <Menu />
+         <h1>Sobre</h1><hr></hr>
       <h1>E aí! Sou Marcella, uma entusiasta da tecnologia e do design</h1>
       <h2>Meu objetivo? Desenvolver experiências digitais que unam estética e funcionalidade</h2>
       <h3>✔ Desenvolver interfaces intuitivas e otimizadas <br></br>
@@ -30,7 +33,7 @@ function Sobre(){
   <li>Gerenciamento de tempo – Organização para cumprir prazos e metas.</li>
 </ul>
 
-
+      <img src={minhaImagem} alt="Imagem ilustrativa" width="300" />
     </div>
   )
 }
